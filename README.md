@@ -34,7 +34,7 @@ The project uses **CrewAI agents** and **OpenAI LLM** to process and analyze doc
 1. **Clone the repository**:
 
 ```bash
-git clone <your-repo-link>
+git clone (https://github.com/sonaligoyal925/financial-docs-analyzer)
 cd financial-document-analyzer
 ```
 
