@@ -94,12 +94,6 @@ Response:
 
 **POST /analyze**
 
-Parameters:
-
-file (UploadFile) – PDF file to analyze
-
-query (string, optional) – Custom query for analysis (default: "Analyze this financial document for investment insights")
-
 Example using curl:
 
 ```bash
