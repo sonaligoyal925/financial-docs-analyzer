@@ -59,8 +59,8 @@ pip install -r requirement.txt
 Create a .env file in the root directory:
 
 ```bash
-OPENAI_API_KEY=your_openai_api_key
-GEMINI_API_KEY=your_gemini_api_key
+OPENROUTER_API_KEY=your_openrouter_api_key
+OPENROUTER_API_BASE=https://api.openrouter.ai/v1
 ```
 
 5. **Add sample financial document:**
@@ -93,6 +93,16 @@ Response:
 ## Analyze Financial Document
 
 **POST /analyze**
+
+=======
+Parameters:
+
+file (UploadFile) – PDF file to analyze
+
+query (string, optional) – Custom query for analysis (default: "Analyze this financial document for investment insights")
+```bash
+cd data folder
+```
 
 Example using curl:
 
